@@ -1,0 +1,144 @@
+html {
+    background: rgb(0, 0, 0); 
+    background-size: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+    
+}
+
+/* Header/logo Title */
+.header {
+    margin: auto; /* Выровнять по центру*/ 
+    max-width: 1300px; /* макс ширина*/
+    padding: 210px; /* отступ*/
+    max-height: 400px; /* макс высота*/
+    text-align: center; /* текст по центу*/
+    background: #1abc9c;
+    color: white; 
+    background: url(/files/Untitled-6.jpg) no-repeat;
+    background-size: 100%;
+}
+
+
+
+/* Increase the font size of the heading */
+.header h1 {
+    font-size: 40px; 
+}
+
+/* Style the top navigation bar */
+.navbar {
+    margin: auto;
+    max-width: 1300px;
+    overflow: hidden;
+    background-color: #851f1f;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+    float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #a7a7a7;
+    color: rgb(170, 163, 163);
+}
+
+/* Column container */
+.row {
+    margin: auto;
+    max-width: 1300px;
+    background-color: #ffffff;
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+/* Main column */
+.main {   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: wh;
+    padding: 20px;
+}
+
+
+/* Fake image, just for this example */
+.основной-блок {
+    background-color: #771c1c;
+    width: 100%;
+    padding: 50px;
+}
+
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.сезон-4 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-top: -35px;
+}
+.основной-блок0 {
+    width: 100%;
+    padding: 0px;
+}
+
+.Блок-серии {
+    display: flex;
+    margin-right:10px;
+}
+
+.серии-гипер {
+    text-decoration: none;
+    padding:50px;
+}
+
+.серии {
+    margin-left: 0px;
+    margin-top: 2px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.пиписька {
+    margin-right: 30px;
+    margin-left: -70px;
+    margin-top: -30px;
+    
+}
